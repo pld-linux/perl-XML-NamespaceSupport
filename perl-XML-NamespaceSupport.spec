@@ -9,7 +9,7 @@ Summary:	XML::NamespaceSupport perl module
 Summary(pl):	Modu³ perla XML::NamespaceSupport
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.08
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
