@@ -18,9 +18,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This Perl module offers a simple to process namespaced XML names
-unames) from within any application that may need them. It
-also helps maintain a prefix to namespace URI map, and provides
-a number of basic checks.
+(unames) from within any application that may need them. It also helps
+maintain a prefix to namespace URI map, and provides a number of basic
+checks.
+
+%description -l pl
+Ten modu³ Perla oferuje proste do przetworzenia, uwzglêdniaj±ce
+przestrzenie nazw, nazwy XML, dostêpne z ka¿dej aplikacji, która ich
+potrzebuje. Pomaga tak¿e prowadziæ mapowanie prefiksów na przestrzenie
+nazw i udostêpnia wiele mo¿liwo¶ci podstawowej kontroli poprawno¶ci.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
