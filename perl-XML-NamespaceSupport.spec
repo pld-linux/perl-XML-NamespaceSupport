@@ -30,7 +30,7 @@ nazw i udostêpnia wiele mo¿liwo¶ci podstawowej kontroli poprawno¶ci.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
