@@ -5,7 +5,7 @@ Summary:	XML::NamespaceSupport perl module
 Summary(pl):	Modu³ perla XML::NamespaceSupport
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.08
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
