@@ -32,7 +32,7 @@ nazw i udostêpnia wiele mo¿liwo¶ci podstawowej kontroli poprawno¶ci.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
