@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	NamespaceSupport
+%define		pdir	XML
+%define		pnam	NamespaceSupport
 Summary:	XML::NamespaceSupport perl module
 Summary(pl):	Modu³ perla XML::NamespaceSupport
 Name:		perl-XML-NamespaceSupport
