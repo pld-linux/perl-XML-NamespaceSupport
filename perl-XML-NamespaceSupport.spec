@@ -7,7 +7,7 @@
 %define	pnam	NamespaceSupport
 Summary:	XML::NamespaceSupport perl module
 Summary(pl):	Modu³ perla XML::NamespaceSupport
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-XML-NamespaceSupport
 Version:	1.08
 Release:	3
 # same as perl
