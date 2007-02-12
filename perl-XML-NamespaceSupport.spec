@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	NamespaceSupport
 Summary:	XML::NamespaceSupport perl module
-Summary(pl):	Modu³ perla XML::NamespaceSupport
+Summary(pl.UTF-8):   ModuÅ‚ perla XML::NamespaceSupport
 Name:		perl-XML-NamespaceSupport
 Version:	1.09
 Release:	1
@@ -27,11 +27,11 @@ This Perl module offers a simple to process namespaced XML names
 maintain a prefix to namespace URI map, and provides a number of basic
 checks.
 
-%description -l pl
-Ten modu³ Perla oferuje proste do przetworzenia, uwzglêdniaj±ce
-przestrzenie nazw, nazwy XML, dostêpne z ka¿dej aplikacji, która ich
-potrzebuje. Pomaga tak¿e prowadziæ mapowanie prefiksów na przestrzenie
-nazw i udostêpnia wiele mo¿liwo¶ci podstawowej kontroli poprawno¶ci.
+%description -l pl.UTF-8
+Ten moduÅ‚ Perla oferuje proste do przetworzenia, uwzglÄ™dniajÄ…ce
+przestrzenie nazw, nazwy XML, dostÄ™pne z kaÅ¼dej aplikacji, ktÃ³ra ich
+potrzebuje. Pomaga takÅ¼e prowadziÄ‡ mapowanie prefiksÃ³w na przestrzenie
+nazw i udostÄ™pnia wiele moÅ¼liwoÅ›ci podstawowej kontroli poprawnoÅ›ci.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
