@@ -8,13 +8,13 @@
 Summary:	XML::NamespaceSupport perl module
 Summary(pl.UTF-8):	Moduł perla XML::NamespaceSupport
 Name:		perl-XML-NamespaceSupport
-Version:	1.11
+Version:	1.12
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/XML/PERIGRIN/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	222cca76161cd956d724286d36b607da
+Source0:	http://www.cpan.org/modules/by-module/XML/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	a8916c6d095bcf073e1108af02e78c97
 URL:		http://search.cpan.org/dist/XML-NamespaceSupport/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
